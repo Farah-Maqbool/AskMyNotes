@@ -2,7 +2,7 @@ import streamlit as st
 from backend import query_llm, extract_text_from_pdf, extract_text_from_voice, text_to_voice
 from io import BytesIO
 
-st.title("Learn with AI")
+st.title("AskMyNotes")
 st.write("Upload your PDF or ask your question by voice or text.")
 pdf_file = st.file_uploader("Upload file",type="pdf")
 
